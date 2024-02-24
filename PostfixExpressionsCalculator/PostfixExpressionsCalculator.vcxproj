@@ -128,9 +128,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="PostfixExpressionsCalculator.cpp" />
-    <ClCompile Include="StackADT.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="MyStack.h" />
     <ClInclude Include="StackADT.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

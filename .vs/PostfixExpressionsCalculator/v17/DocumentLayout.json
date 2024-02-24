@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "E:\\ITI_Intake_44\\16-DataStructuer\\Project\\ProjectForStack\\PostfixExpressionsCalculator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1AB8E070-9C7C-41D8-8B4F-DD75D5B41EBE}|PostfixExpressionsCalculator\\PostfixExpressionsCalculator.vcxproj|E:\\ITI_Intake_44\\16-DataStructuer\\Project\\ProjectForStack\\PostfixExpressionsCalculator\\PostfixExpressionsCalculator\\StackADT.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1AB8E070-9C7C-41D8-8B4F-DD75D5B41EBE}|PostfixExpressionsCalculator\\PostfixExpressionsCalculator.vcxproj|solutionrelative:PostfixExpressionsCalculator\\StackADT.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1AB8E070-9C7C-41D8-8B4F-DD75D5B41EBE}|PostfixExpressionsCalculator\\PostfixExpressionsCalculator.vcxproj|E:\\ITI_Intake_44\\16-DataStructuer\\Project\\ProjectForStack\\PostfixExpressionsCalculator\\PostfixExpressionsCalculator\\StackADT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1AB8E070-9C7C-41D8-8B4F-DD75D5B41EBE}|PostfixExpressionsCalculator\\PostfixExpressionsCalculator.vcxproj|solutionrelative:PostfixExpressionsCalculator\\StackADT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{1AB8E070-9C7C-41D8-8B4F-DD75D5B41EBE}|PostfixExpressionsCalculator\\PostfixExpressionsCalculator.vcxproj|E:\\ITI_Intake_44\\16-DataStructuer\\Project\\ProjectForStack\\PostfixExpressionsCalculator\\PostfixExpressionsCalculator\\MyStack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1AB8E070-9C7C-41D8-8B4F-DD75D5B41EBE}|PostfixExpressionsCalculator\\PostfixExpressionsCalculator.vcxproj|solutionrelative:PostfixExpressionsCalculator\\MyStack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1AB8E070-9C7C-41D8-8B4F-DD75D5B41EBE}|PostfixExpressionsCalculator\\PostfixExpressionsCalculator.vcxproj|E:\\ITI_Intake_44\\16-DataStructuer\\Project\\ProjectForStack\\PostfixExpressionsCalculator\\PostfixExpressionsCalculator\\PostfixExpressionsCalculator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1AB8E070-9C7C-41D8-8B4F-DD75D5B41EBE}|PostfixExpressionsCalculator\\PostfixExpressionsCalculator.vcxproj|solutionrelative:PostfixExpressionsCalculator\\PostfixExpressionsCalculator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AB8E070-9C7C-41D8-8B4F-DD75D5B41EBE}|PostfixExpressionsCalculator\\PostfixExpressionsCalculator.vcxproj|E:\\ITI_Intake_44\\16-DataStructuer\\Project\\ProjectForStack\\PostfixExpressionsCalculator\\PostfixExpressionsCalculator\\StackADT.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1AB8E070-9C7C-41D8-8B4F-DD75D5B41EBE}|PostfixExpressionsCalculator\\PostfixExpressionsCalculator.vcxproj|solutionrelative:PostfixExpressionsCalculator\\StackADT.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 325,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,39 +50,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StackADT.cpp",
-              "DocumentMoniker": "E:\\ITI_Intake_44\\16-DataStructuer\\Project\\ProjectForStack\\PostfixExpressionsCalculator\\PostfixExpressionsCalculator\\StackADT.cpp",
-              "RelativeDocumentMoniker": "PostfixExpressionsCalculator\\StackADT.cpp",
-              "ToolTip": "E:\\ITI_Intake_44\\16-DataStructuer\\Project\\ProjectForStack\\PostfixExpressionsCalculator\\PostfixExpressionsCalculator\\StackADT.cpp",
-              "RelativeToolTip": "PostfixExpressionsCalculator\\StackADT.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-02-24T17:20:32.485Z",
+              "DocumentIndex": 0,
+              "Title": "MyStack.h",
+              "DocumentMoniker": "E:\\ITI_Intake_44\\16-DataStructuer\\Project\\ProjectForStack\\PostfixExpressionsCalculator\\PostfixExpressionsCalculator\\MyStack.h",
+              "RelativeDocumentMoniker": "PostfixExpressionsCalculator\\MyStack.h",
+              "ToolTip": "E:\\ITI_Intake_44\\16-DataStructuer\\Project\\ProjectForStack\\PostfixExpressionsCalculator\\PostfixExpressionsCalculator\\MyStack.h",
+              "RelativeToolTip": "PostfixExpressionsCalculator\\MyStack.h",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAWwDMAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-02-24T20:30:00.471Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "StackADT.h",
               "DocumentMoniker": "E:\\ITI_Intake_44\\16-DataStructuer\\Project\\ProjectForStack\\PostfixExpressionsCalculator\\PostfixExpressionsCalculator\\StackADT.h",
               "RelativeDocumentMoniker": "PostfixExpressionsCalculator\\StackADT.h",
               "ToolTip": "E:\\ITI_Intake_44\\16-DataStructuer\\Project\\ProjectForStack\\PostfixExpressionsCalculator\\PostfixExpressionsCalculator\\StackADT.h",
               "RelativeToolTip": "PostfixExpressionsCalculator\\StackADT.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-02-24T17:20:23.139Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "PostfixExpressionsCalculator.cpp",
               "DocumentMoniker": "E:\\ITI_Intake_44\\16-DataStructuer\\Project\\ProjectForStack\\PostfixExpressionsCalculator\\PostfixExpressionsCalculator\\PostfixExpressionsCalculator.cpp",
               "RelativeDocumentMoniker": "PostfixExpressionsCalculator\\PostfixExpressionsCalculator.cpp",
               "ToolTip": "E:\\ITI_Intake_44\\16-DataStructuer\\Project\\ProjectForStack\\PostfixExpressionsCalculator\\PostfixExpressionsCalculator\\PostfixExpressionsCalculator.cpp",
               "RelativeToolTip": "PostfixExpressionsCalculator\\PostfixExpressionsCalculator.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-02-20T05:57:05.518Z",
               "EditorCaption": ""
