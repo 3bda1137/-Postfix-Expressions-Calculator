@@ -4,7 +4,7 @@
 using namespace std;
 int main()
 {
-	MyStack<int> t(10);
+	MyStack<int> t;
 	t.Push(1);
 	t.Push(2);
 	t.Push(3);

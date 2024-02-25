@@ -1,4 +1,5 @@
 #include "StackADT.h"
+#include "Node.h"
 
 using namespace std;
 #pragma once
@@ -6,42 +7,41 @@ template <class T>
 class MyStack : public StackADT<T>
 {
 public:
-	MyStack(int sizeOfstack = 50)
+	MyStack()
 	{
-		if (sizeOfstack <= 0)
-			sizeOfstack = 50;
-
-		initilization(sizeOfstack);
+		this->topOfStack = NULL;
+		
 	}
-	void  initilization(int sizeOfstack)override
+	void  Initilization()override
 	{
-		this->size = sizeOfstack;
-		items = new T[size];
-		topOfstack = 0;
+		while (this->IsEmpty())
+		{
+			Node<T>* temp;
+			temp = this->topOfStack;
+			this->topOfStack = this->topOfStack->link;
+			delete temp;
+		}
 	}
 	bool IsEmpty()override
 	{
-		return this->topOfstack == 0;
+		return this->topOfStack == NULL;
 	}
-	bool IsFull()override {
-		return this->topOfstack == this->size;
+	bool IsFull()override
+	{
+		return false;
 	}
 
-	void Push(T item)override
+	void Push(T newItem)override
 	{
-		if (!IsFull())
-		{
-			this->items[topOfstack] = item;
-			this->topOfstack += 1;
-		}
-		else
-			throw runtime_error("Stack is Full");
+		Node<T>* newNode = new Node<T>;
+		newNode->data = newItem;
+		newNode->link = this->topOfStack;
+		this->topOfStack = newNode;
 	}
 	T Top()override {
 		if (!IsEmpty())
 		{
-			T topItem = this->items[topOfstack - 1];
-			return topItem;
+			return this->topOfStack->data;
 		}
 		else
 			throw runtime_error("Stack is empty");
@@ -50,25 +50,18 @@ public:
 	{
 		if (!IsEmpty())
 		{
-			this->topOfstack -= 1;
-			T topItem = this->items[topOfstack];
+			Node<T>* temp;
+			temp = this->topOfStack;
+			this->topOfStack = this->topOfStack->link;
+			delete temp;
+
 		}
 		else
 			throw runtime_error("Stack is empty");
 	}
-	void CopyStack(MyStack<T>& otherStack)
-	{
-		delete[] items;
-		size = otherStack.size;
-		topOfstack = otherStack.topOfstack;
-		items = new T[size];
-
-		for (int j = 0; j < topOfstack; j++)
-			items[j] = otherStack.items[j];
-	}
 
 private:
-	int size;
-	T topOfstack;
-	T* items;
+	Node<T>*topOfStack;
+	
+	//T* items;
 };
