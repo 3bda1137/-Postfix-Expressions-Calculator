@@ -2,7 +2,7 @@
 template<class T>
 class StackADT
 {
-	virtual void Initilization()=0;
+	virtual void Initialization()=0;
 	virtual bool IsEmpty()=0;
 	virtual bool IsFull()=0;
 	virtual void Push(T item)=0;

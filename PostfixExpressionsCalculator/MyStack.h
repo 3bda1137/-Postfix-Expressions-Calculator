@@ -9,17 +9,24 @@ class MyStack : public StackADT<T>
 public:
 	MyStack()
 	{
-		this->topOfStack = NULL;
+		this->topOfStack = nullptr;
 		
 	}
-	void  Initilization()override
+	void Initialization() override
 	{
-		while (this->IsEmpty())
+		while (!IsEmpty())
 		{
-			Node<T>* temp;
-			temp = this->topOfStack;
-			this->topOfStack = this->topOfStack->link;
-			delete temp;
+			if (this->topOfStack != nullptr)
+			{
+				Node<T>* temp = this->topOfStack;
+				this->topOfStack = this->topOfStack->link;
+				delete temp;
+			}
+			else
+			{
+				// Handle the case where topOfStack is already nullptr
+				break;
+			}
 		}
 	}
 	bool IsEmpty()override
